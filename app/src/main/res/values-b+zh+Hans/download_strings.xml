@@ -1,0 +1,22 @@
+<resources>
+    <string name="export_title">下载视频</string>
+    <string name="export_normal">普通下载</string>
+    <string name="export_original">原始画质</string>
+    <string name="export_sidecars">视频+字幕</string>
+    <string name="export_burned">带字幕视频</string>
+    <string name="export_quality">画质 %1$d</string>
+    <string name="export_choose_quality">选择视频画质</string>
+    <string name="export_translation_language">官方字幕翻译语言</string>
+    <string name="export_original_captions">原语言字幕</string>
+    <string name="export_translated_captions">官方翻译字幕</string>
+    <string name="export_bilingual_captions">原语言+官方翻译（双语）</string>
+    <string name="export_captions_missing">暂未获取到字幕</string>
+    <string name="export_captions_missing_message">请先在这条视频里开启字幕及自动翻译，再尝试下载。需要拿到完整的官方字幕时间轴；视频本身没有这些字幕时无法导出。</string>
+    <string name="export_preparing">正在准备下载…</string>
+    <string name="export_downloading">正在下载视频</string>
+    <string name="export_rendering">正在合成带字幕视频…</string>
+    <string name="export_saved">视频已保存到相册</string>
+    <string name="export_saved_sidecars">视频已保存到相册，原语言与官方翻译的 SRT 字幕已保存到 Download/TikTok。</string>
+    <string name="export_failed">下载失败</string>
+    <string name="export_busy">下载队列已满，请稍后再试。</string>
+</resources>

@@ -52,7 +52,7 @@
     <string name="feature_status_bar" formatted="false">"隐藏系统状态栏"</string>
     <string name="feature_media_section" formatted="false">"内容下载与操作增强"</string>
     <string name="feature_download" formatted="false">"强制无水印下载"</string>
-    <string name="feature_download_summary" formatted="false">"长按或分享菜单直接保存无水印原片"</string>
+    <string name="feature_download_summary" formatted="false">"下载菜单可选原始画质、原语言与翻译字幕、带字幕视频"</string>
     <string name="feature_music" formatted="false">"音频限制解锁"</string>
     <string name="feature_music_summary" formatted="false">"解除版权与地区下架限制，恢复音频播放"</string>
     <string name="feature_author_region" formatted="false">"显示作者位置"</string>

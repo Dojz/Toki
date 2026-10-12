@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="export_title">Download video</string>
+    <string name="export_normal">Normal download</string>
+    <string name="export_original">Original quality</string>
+    <string name="export_sidecars">Video + subtitles</string>
+    <string name="export_burned">Video with subtitles</string>
+    <string name="export_quality">Quality %1$d</string>
+    <string name="export_choose_quality">Choose video quality</string>
+    <string name="export_translation_language">Official subtitle translation</string>
+    <string name="export_original_captions">Original language</string>
+    <string name="export_translated_captions">Official translation</string>
+    <string name="export_bilingual_captions">Original + official translation</string>
+    <string name="export_captions_missing">Subtitles unavailable</string>
+    <string name="export_captions_missing_message">Enable captions and automatic translation on this video, then try again. This download needs the complete official subtitle tracks. Videos without these tracks cannot export them.</string>
+    <string name="export_preparing">Preparing download…</string>
+    <string name="export_downloading">Downloading video</string>
+    <string name="export_rendering">Rendering subtitles into video…</string>
+    <string name="export_saved">Video saved to your gallery</string>
+    <string name="export_saved_sidecars">Video saved to your gallery. Original and translated SRT files saved to Download/TikTok.</string>
+    <string name="export_failed">Download failed</string>
+    <string name="export_busy">Download queue is full. Try again shortly.</string>
+</resources>

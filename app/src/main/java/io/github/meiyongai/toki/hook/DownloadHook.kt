@@ -99,7 +99,10 @@ object DownloadHook {
      *     - `io.github.meiyongai.toki.hook.TokiModule.onPackageLoaded`: 目标应用包完成加载时触发注册。
      */
     fun init(module: XposedModule, classLoader: ClassLoader) {
-        if (forceDownloadEnabled()) hookDownloadSource(module, classLoader)
+        if (forceDownloadEnabled()) {
+            hookDownloadSource(module, classLoader)
+            DownloadMenuHook.init(module, classLoader)
+        }
         hookAclCommonShare(module, classLoader)
         hookMediaStoreRelativePath(module)
         hookLegacyPublicDirectory(module)
@@ -276,6 +279,8 @@ object DownloadHook {
      *     - `io.github.meiyongai.toki.hook.DownloadHook.hookMediaStoreRelativePath`: 写入拦截改写。
      */
     private fun redirectRelativePath(original: String, contentValues: ContentValues): String {
+        // SRT sidecars are documents in Download/TikTok, never video rows in Movies.
+        if (contentValues.getAsString("mime_type") == "application/x-subrip") return original
         return if (isImageMedia(original, contentValues)) {
             resolveConfiguredImagePath()
         } else {
