@@ -20,8 +20,8 @@ android {
         applicationId = "io.github.meiyongai.toki"
         minSdk = 28
         targetSdk = 35
-        versionCode = 5
-        versionName = "1.0.4"
+        versionCode = 6
+        versionName = "1.0.4-download.1"
     }
 
     signingConfigs {
@@ -95,6 +95,8 @@ dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.core:core-splashscreen:1.2.0")
     implementation("androidx.activity:activity-compose:1.9.3")
+    implementation("androidx.media3:media3-transformer:1.11.0")
+    implementation("androidx.media3:media3-effect:1.11.0")
     testImplementation("junit:junit:4.13.2")
     // 在 JVM 中驱动真实模块入口，验证按功能安装与全关会话诊断。
     testImplementation("io.github.libxposed:api:102.0.0")
