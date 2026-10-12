@@ -52,7 +52,7 @@
     <string name="feature_status_bar" formatted="false">"Hide status bar"</string>
     <string name="feature_media_section" formatted="false">"Downloads &amp; tools"</string>
     <string name="feature_download" formatted="false">"Watermark-free downloads"</string>
-    <string name="feature_download_summary" formatted="false">"Save original videos from the long-press or share menu"</string>
+    <string name="feature_download_summary" formatted="false">"Choose video quality, export original and translated subtitles, or save a video with captions"</string>
     <string name="feature_music" formatted="false">"Unblock audio"</string>
     <string name="feature_music_summary" formatted="false">"Play audio blocked by region or licensing"</string>
     <string name="feature_author_region" formatted="false">"Show creator region"</string>
